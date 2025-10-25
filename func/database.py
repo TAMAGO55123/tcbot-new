@@ -9,7 +9,8 @@ class tag:
             CREATE TABLE IF NOT EXISTS tag (
                 name TEXT PRIMARY KEY,
                 invite TEXT,
-                message_id TEXT
+                message_id TEXT,
+                lang TEXT
             )
         ''')
         self.conn.commit()
