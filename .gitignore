@@ -3,3 +3,4 @@
 venv/
 database/
 data.py
+__pycache__
